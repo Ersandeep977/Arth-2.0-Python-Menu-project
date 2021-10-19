@@ -77,7 +77,7 @@ Enter 10 to show your web page
             print("thank you for using")
             print("*"*80)  
         elif ch == 8:
-            os.system('start cmd /c "python C://Users//Sandeep//Desktop//Arth-2.0//terraform//terraform.py"')
+            os.system('start cmd /c "python C:/Users/Sandeep/Desktop/Arth-2.0-Python-Menu-project/Arth-2.0-Python-Menu-project/terraform/terrafrom.py"')
         # os.system('start cmd /c "python ./terraform/terraform.py"')
             print("*"*80)
             print("thank you for using")
