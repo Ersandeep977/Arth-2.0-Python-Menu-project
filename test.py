@@ -16,6 +16,8 @@ Enter 5 for minikube launch
 Enter 6 for launch Google
 Enter 7 for launch Python
 Enter 8 for Create EC2 instances in us-east-1 resion
+Enter 9 for launch Apache server for hosting the webpage
+
 ''')
 print("*"*80)
 ch = int(input('Enter your choces :- '))
@@ -69,7 +71,10 @@ elif ch == 8:
     print("thank you for using")
     print("*"*80)
 elif ch == 9:
-    os.system('')
-        
+    os.system('chmod +x shell.sh')
+    os.system('sh shell.sh')
+      print("*"*80)
+    print("thank you for using")
+    print("*"*80)    
 else:
     print("Plz chocse Right Option")

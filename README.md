@@ -11,3 +11,4 @@
 ### Enter 7 for launch Python
 ### Enter 8 for Create EC2 instances in us-east-1 resion
 
+this is the menu you enter the number and get the output
