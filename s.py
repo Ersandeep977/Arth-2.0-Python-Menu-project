@@ -1,26 +1,19 @@
-# import os
-# import time
-# ch = int(input("enter :- ",))
-# if ch == 1:
-#     # os.system('start cmd /c "notepad"')
-#     # os.system('start cmd /c "python minikube_start.py"')
-#     time.sleep(5)
-#     os.system('cp ./terraform/terraform.py terraform.py')
-#     time.sleep(5)
-#     os.system('cp ./terraform/main.tf main.tf')
-#     time.sleep(5)
-#     os.system('start cmd /c "python terraform.py"')
-#     time.sleep(6)
-#     os.system('rm -f terraform.py')
-#     os.system('rm -f main.tf')
-#     os.system('rm -f terraform.tfstat')
-#     os.system('rm -f terraform.tfstate.backup')
-    
-print ('this is done')
-while True :
-   ch = int(input("enter number:- "))
-   if ch == 1 :
-    print('hello sandeep..')
-    break
-else:
-    print('not is done')   
+import sys
+print('hello')
+print('''
+optin 1
+optin 2
+oprin 3
+''')
+while True:
+    op = int(input("enter number : "))
+    if op == 1:
+        print('number one 1')
+    elif op == 2:
+        print('number 2')
+    elif op == 3:
+        print('Thank you using TCS..')
+        sys.exit()
+    elif op :
+        continue    
+            
