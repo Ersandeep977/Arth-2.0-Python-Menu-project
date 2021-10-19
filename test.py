@@ -71,10 +71,22 @@ elif ch == 8:
     print("thank you for using")
     print("*"*80)
 elif ch == 9:
-    os.system('chmod +x shell.sh')
-    os.system('sh shell.sh')
-      print("*"*80)
-    print("thank you for using")
-    print("*"*80)    
+    print('''
+        fast you are sure this linx server other vies this is not work
+        if you are sure them type "yes"
+        if not sure then type "no"
+    ''')
+    c = input('Are you Sure this linx type "yes/no" :- ')
+    if c == "yes":
+        os.system('chmod +x shell.sh')
+        os.system('sh shell.sh')
+        print("*"*80)
+        print("thank you for using")
+        print("*"*80)
+    else:
+        print("This work only Redhat linux server not foe windows sever")
+        print("*"*80)
+        print("thank you for using")
+        print("*"*80)        
 else:
     print("Plz chocse Right Option")
