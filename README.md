@@ -2,8 +2,8 @@
 
 ## -----------Welcome to my Menu-------------
 
-## Enter 1 for date Print
-## Enter 2 for calender Print
+### Enter 1 for date Print
+### Enter 2 for calender Print
 ## Enter 3 for NotePad Open
 ## Enter 4 for Chrome Open
 ## Enter 5 for minikube launch
