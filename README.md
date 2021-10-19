@@ -11,5 +11,6 @@
 ### Enter 7 for launch Python
 ### Enter 8 for Create EC2 instances in us-east-1 resion
 ### Enter 9 for launch Apache server for hosting the webpage
+### Enter 10 to show your web page
 
 this is the menu you enter the number and get the output
