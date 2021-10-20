@@ -103,7 +103,7 @@ Enter 11 to launch docker
                 print("thank you for using")
                 print("*"*80)   
         elif ch == 11:
-            continue          
+            pass         
     else:
         print("Plz chocse Right Option")
         break
