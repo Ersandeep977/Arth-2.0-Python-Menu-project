@@ -21,6 +21,7 @@ Enter 7 for launch Python
 Enter 8 for Create EC2 instances in us-east-1 resion
 Enter 9 for launch Apache server for hosting the webpage
 Enter 10 to show your web page
+Enter 11 to launch docker
 
 ''')
     if c == "y" :
@@ -78,7 +79,7 @@ Enter 10 to show your web page
             print("*"*80)  
         elif ch == 8:
         # Enter 8 for Create EC2 instances in us-east-1 resion    
-            os.system('start cmd /c "python C:/Users/Sandeep/Desktop/Arth-2.0-Python-Menu-project/Arth-2.0-Python-Menu-project/terraform/terrafrom.py"')
+            os.system('start cmd /c "python C:/Users/Sandeep/Desktop/Arth-2.0-Python-Menu-project/Arth-2.0-Python-Menu-project/terraform/terraform.py"')
         # os.system('start cmd /c "python ./terraform/terraform.py"')
             print("*"*80)
             print("thank you for using")
@@ -101,7 +102,7 @@ Enter 10 to show your web page
                 print("*"*80)
                 print("thank you for using")
                 print("*"*80)   
-        elif ch :
+        elif ch == 11:
             continue          
     else:
         print("Plz chocse Right Option")
