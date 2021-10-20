@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        body {
+             background-color: powderblue;
+            }
+        h1 {
+          color: blue;
+          font-family: verdana;
+          font-size: 300%;
+        }
+        p {
+          color: red;
+          font-family: courier;
+          font-size: 160%;
+        }
+        </style>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>My web page</title>
@@ -8,6 +23,20 @@
 
 </head>
 <body>
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+      </svg>
     <h1>hello sandeep kumar patel this is the server page</h1>
+    <img src="/img/162812.jpg" alt="img not found">
+    <p> fill the from and submitted.</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
 </body>
 </html>
