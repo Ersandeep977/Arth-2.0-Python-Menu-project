@@ -3,12 +3,13 @@ import time
 print("...."*80)
 print("hello....WELCOME TO 'terraform WORLD'...by SANDEEP KUMAR Patel..")
 print("...."*80)
-print('''
-Enter "yes" for run terraform command
-or
-Enter "No" for exit terraform
-''')
+
 while True:
+    print('''
+    Enter "yes" for run terraform command
+    or
+    Enter "No" for exit terraform
+    ''')
     ch = input('Enter your choice "yes/no" :- ')
     if ch == 'yes': 
         print(" ..terrafrom init launch.... ")

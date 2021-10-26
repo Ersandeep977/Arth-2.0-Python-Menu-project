@@ -79,8 +79,19 @@ Enter 11 to launch docker
             print("*"*80)  
         elif ch == 8:
         # Enter 8 for Create EC2 instances in us-east-1 resion    
-            os.system('start cmd /c "python C:/Users/Sandeep/Desktop/Arth-2.0-Python-Menu-project/Arth-2.0-Python-Menu-project/terraform/terraform.py"')
-        # os.system('start cmd /c "python ./terraform/terraform.py"')
+            print('terrafrom file copy in main folder')
+            os.system('cp ./terraform/main.tf main.tf')
+            print('python file copy in main folder')
+            os.system('cp ./terraform/terraform.py terraform.py')
+            os.system('python terraform.py')
+            ch= input((' do you went to clear  terrafrom and python file type "yes/no" : '))
+            if ch == "yes":
+                print('file delete ......')
+                os.system('rm -rf main.tf terraform.py .terraform.lock.hcl terraform.tfstate terraform.tfstate.backup')
+                os.system('rd /s .terraform')
+            else:
+                print('thank you using terraform')
+                exit()
             print("*"*80)
             print("thank you for using")
             print("*"*80)
@@ -106,4 +117,5 @@ Enter 11 to launch docker
             pass         
     else:
         print("Plz chocse Right Option")
+        print("Thank you for using my Menu python program.")
         break
