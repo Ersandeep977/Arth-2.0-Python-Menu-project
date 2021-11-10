@@ -4,18 +4,18 @@ import calendar
 import datetime
 from time import gmtime, strftime
 print("*"*80)
-print("*"*20,"Task-1 by Sandeep kumar Patel","*"*20)
+print("*"*20,"Task-1 by Sandeep Kumar Patel","*"*20)
 print("*"*80)
 print("Welcome to my Menu")
 print("*"*80)
 while True:
-    c = input('do you want continu plz type "y/n" :- ')
+    c = input('do you want Continu plz type "y/n" :- ')
     print('''
 Enter 1 for date Print
 Enter 2 for calender Print
 Enter 3 for NotePad Open
 Enter 4 for Chrome Open
-Enter 5 for minikube launch
+Enter 5 for Minikube launch
 Enter 6 for launch Google
 Enter 7 for launch Python
 Enter 8 for Create EC2 instances in us-east-1 resion
