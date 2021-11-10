@@ -48,12 +48,12 @@ Enter 10 to launch docker
             
         elif ch == 3:
         # Enter 3 for NotePad Open    
-            print(os.system('notepad'))
+            print(os.system('gedit'))
             print("*"*80)
             print("thank you for using")
             print("*"*80)
         elif ch == 4:
-            print(os.system('chrome'))
+            print(os.system('firefox'))
             print("*"*80)
             print("thank you for using")
             print("*"*80)
@@ -65,12 +65,6 @@ Enter 10 to launch docker
             print("*"*80)
             print("thank you for using")
             print("*"*80)
-        elif ch == 10:
-            import webbrowser
-            #webbrowser.open('file:///C:/Users/Sandeep/Desktop/Arth-2.0-Python-Menu-project/Arth-2.0-Python-Menu-project/index.html')
-            print("*"*80)
-            print("thank you for using")
-            print("*"*80)    
         elif ch == 7:
             os.system('start cmd /c "python"')
             print("*"*80)
